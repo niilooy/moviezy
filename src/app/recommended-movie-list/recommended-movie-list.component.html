@@ -1,0 +1,29 @@
+<div class="row" data-bs-theme="dark">
+  <h1 class="display-6 mb-3">You might like these:</h1>
+  <div class="col-sm-3 mb-3 mb-sm-0" *ngFor="let movie of movies">
+    <div class="card container-fluid">
+      <div class="card position-relative" style="position: relative">
+
+        <img
+          [src]="movie.imageUrl"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ movie.title }}</h5>
+          <div class="movie-info">
+            <span class="badge rounded-pill text-bg-primary">{{
+              movie.genre
+            }}</span>
+            <span class="badge rounded-pill text-bg-secondary">{{
+              movie.language
+            }}</span>
+            <span [ngClass]="setBadgeColor(movie.rating)"
+              >{{ movie.rating }}/10</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

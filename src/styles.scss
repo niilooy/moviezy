@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+@import "ngx-toastr/toastr";
+
+* {
+  color: whitesmoke;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

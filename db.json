@@ -1,0 +1,103 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "movies": [
+    {
+      "id": "1",
+      "title": "Oppenheimer",
+      "imageUrl": "https://static.toiimg.com/imagenext/toiblogs/photo/blogs/wp-content/uploads/2023/07/ss_col_3c-1.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis undeodio dignissimos eveniet recusandae quasi aperiam temporibus, pariaturconsectetur aliquid!",
+      "genre": "drama",
+      "language": "english",
+      "rating": 10,
+      "liked": true
+    },
+    {
+      "title": "The Batman",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nostrum laborum animi, nam sed voluptas autem odit itaque at soluta perspiciatis? Omnis, tempore in! Voluptate quae rem sunt iste illo!",
+      "genre": "thriller",
+      "language": "english",
+      "imageUrl": "https://voices.shortpedia.com/wp-content/uploads/2022/03/the-batman-new-movie-1200x900@Youtube.jpg",
+      "rating": 6,
+      "id": "4"
+    },
+    {
+      "title": "Suzume",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nostrum laborum animi, nam sed voluptas autem odit itaque at soluta perspiciatis? Omnis, tempore in! Voluptate quae rem sunt iste illo!",
+      "genre": "fantasy",
+      "language": "japanese",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2023/02/28/1600x900/Suzume_no_Tojimari_1677584858098_1677584903456_1677584903456.jpg",
+      "rating": 9,
+      "id": "5"
+    },
+    {
+      "title": "Indiana Jones and the Dial of Destiny",
+      "genre": "thriller",
+      "language": "english",
+      "imageUrl": "https://www.fanthatracks.com/wp-content/uploads/2023/05/DialofDestiny_Cannes2023_cover_1.jpg",
+      "rating": 6,
+      "description": " ipsum dolor sit amet consectetur adipisicing elit. Nobis undeodio dignissimos eveniet recusandae quasi aperiam temporibus, pariaturconsectetur aliquid! ",
+      "id": "6"
+    },
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "description": "orem ipsum dolor sit amet consectetur adipisicing elit. Nobis undeodio dignissimos eveniet recusandae quasi aperiam temporibus, pariaturconsectetur aliquid! ",
+      "genre": "action",
+      "language": "english",
+      "imageUrl": "https://images.thedirect.com/media/article_full/spider-verse-posters_VMqW9U1.jpg",
+      "rating": 10,
+      "id": "7"
+    },
+    {
+      "title": "Jujutsu Kaisen 0",
+      "description": "dvfffv",
+      "genre": "action",
+      "language": "japanese",
+      "imageUrl": "https://animenewsindia.com/wp-content/uploads/2022/03/88941cc6d4436f003b7f65c366db56341643063784_main.jpg",
+      "rating": 8,
+      "id": "8"
+    },
+    {
+      "title": "Mission Impossible: Dead Reckoning - Part One",
+      "genre": "action",
+      "language": "english",
+      "imageUrl": "https://images.lifestyleasia.com/wp-content/uploads/sites/2/2023/06/14115719/MIDR1_US_2023_SA_16x9_1920x1080_NB_2215190_1920x1080.jpeg",
+      "rating": 10,
+      "description": "In Mission: Impossible - Dead Reckoning Part One, Ethan Hunt (Tom Cruise) and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the fate of the world at stake, and dark forces from Ethan`s past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan is forced to consider that nothing can matter more than his mission - not even the lives of those he cares about most.",
+      "id": "10"
+    },
+    {
+      "id": "1fc6",
+      "title": "Laapataa Ladies",
+      "description": "\"Laapataa Ladies\" is a captivating tale of two brides who, after being exchanged during a train ride, embark on a journey of self-discovery and empowerment in rural India. A humorous dig at societal norms, this film is a testament to sisterhood and resilience.",
+      "genre": "comedy",
+      "language": "hindi",
+      "rating": 9,
+      "imageUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00351955-wrdxrhzkyh-landscape.jpg"
+    },
+    {
+      "id": "db9f",
+      "title": "Dune : Part Two",
+      "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he must prevent a terrible future only he can foresee.",
+      "genre": "scifi",
+      "language": "english",
+      "rating": 9,
+      "imageUrl": "https://ntvb.tmsimg.com/assets/p20913466_v_h8_aj.jpg?w=960&h=540"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<div class="container my-5" data-bs-theme="dark">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-lg-6 text-center">
+      <img class="w-100 shadow movie-image" [src]="movie.imageUrl" />
+    </div>
+    <div class="col-lg-6 text-end">
+      <div class="p-3 mt-4">
+        <h1 class="display-6 mb-3">{{ movie.title }}</h1>
+        <p class="lead">{{ movie.description }}.</p>
+        <p class="lead">
+          2023, {{ movie.language | titlecase }}, {{ movie.genre | titlecase }},
+          ⭐{{ movie.rating }}/10
+        </p>
+        <div class="btn-group">
+          <a class="btn btn-outline-light" href="https://in.bookmyshow.com/"
+            >Book Tickets</a
+          >
+          <a class="btn btn-outline-light" (click)="updateMovie(movie.id)"
+            >Update</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+  <div
+    id="liveToast"
+    class="toast hide"
+    role="alert"
+    aria-live="assertive"
+    aria-atomic="true"
+  ></div>
+</div>

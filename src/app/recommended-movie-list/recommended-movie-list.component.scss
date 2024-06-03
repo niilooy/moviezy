@@ -1,0 +1,39 @@
+.card-img-top {
+  height: 15rem;
+  width: 100%;
+}
+
+.badge {
+  margin: 10px;
+}
+
+.card {
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+  height: 100%;
+  margin: 5px;
+}
+
+.card:hover {
+  transform: scale(1.005);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+button {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card:hover button {
+  visibility: visible;
+  opacity: 1;
+}
+
+// .card-text {
+//   height: 45%;
+// }
